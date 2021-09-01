@@ -188,6 +188,38 @@ tbody tr:nth-child(even) {
     background: #f9fafc;
 }
 
+.badge {
+    padding: .2rem 1rem;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: .7rem;
+}
+
+.badge.success {
+    background: #DEF7EC;
+    color: var(--main-color);
+}
+
+.badge.preparing {
+    background: rgb(136, 136, 121);
+    color: orange;
+}
+
+.badge.transit {
+    background: #F0F6B2;
+    color: cornflowerblue;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.center {
+    text-align: center;
+    vertical-align: middle;
+}
+
+
 @media only screen and (max-width: 1200px) {
     .sidebar {
         width: 60px;
